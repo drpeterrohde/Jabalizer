@@ -1,0 +1,12 @@
+# Run this file from terminal to install packages used by jabalizer
+using Pkg
+
+dependencies = [
+"PyCall",
+"LightGraphs",
+"GraphPlot",
+"Documenter",
+"StatsBase"
+]
+
+Pkg.add(dependencies)
